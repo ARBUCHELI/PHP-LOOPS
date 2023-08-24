@@ -1,0 +1,36 @@
+* Why Use Loops?
+----------------
+When attempting to repeat code over and over again, it can be monotonous to retype or copy and paste the same code. Worse, inadvertent typos can cause errors in your program.
+
+Consider an example where you want your code to print the all the numbers from 1 to 10. Without loops, this would look something like:
+
+echo "1\n";
+echo "2\n";
+echo "3\n";
+echo "4\n";
+echo "5\n";
+echo "6\n";
+echo "7\n";
+echo "8\n";
+echo "9\n";
+echo "10";
+
+That’s a lot of typing! And what if you decide later you want to change it to add "The count is currently: " at the beginning of each statement? You would need to copy and paste that into 
+every single line.
+
+Luckily, most programming languages contain a feature, called loops, for repeating code automatically until certain conditions are met. Sometimes the repetition is referred to as 
+iterating and each time the code is executed is considered an iteration. Loops can be used to reduce the number of lines of code while also making it much easier to modify later on.
+
+PHP is no exception and offers several ways to repeat execution of a code block.
+
+This lesson will cover the following PHP loop types:
+
+while
+do … while
+for
+foreach
+Each of these loops contain conditions for stopping execution of the loop. Improper implementation of these conditions can cause an infinite loop and the computer will never stop 
+executing your code block. On Codecademy, if it seems like your code is taking too long or never completes, consider refreshing the page and re-examining your loop structure.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
